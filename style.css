@@ -1,0 +1,142 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+.header{
+    min-height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color:#1d2026;
+    
+}
+
+
+.logo{
+    font-size: 25px;
+    width: 140px;
+    cursor: pointer;
+    color: #fff;
+}
+
+ span{
+    font-size: 32px;
+    cursor: pointer;
+    color:#009886;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 8%;
+}
+
+.navbar ul{
+    flex: 1;
+    text-align: right;
+}
+
+.navbar ul li{
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+} 
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009886;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100px;
+}
+
+.register-btn{
+    background: #f12;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.content h1{
+    font-size: 35px;
+    margin-top: 80px;
+    text-transform: uppercase;
+}
+
+.content p{
+    margin: 20px auto;
+    font-weight: 50;
+    line-height: 16px;
+    font-size: 12px;
+}
+ 
+button{
+    width: 200px;
+    height: auto;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid #009886;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.5s, background 0.5s;
+}
+
+button:hover span{
+    width: 100%;
+}
+
+button:hover{
+    background: #009886;
+    border: none ;
+   transform: scale(1.05);
+}
+
+
+
+
+
+

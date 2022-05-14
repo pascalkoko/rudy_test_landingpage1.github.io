@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <style>
+        .contenu{
+            width: 100%;
+            min-height: 50vh;
+            background: linear-gradient(45deg, transparent,#009688);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5%;    
+        }
+
+        .login-box{
+            display: flex;
+            align-items: center;
+            width: 100%;
+            max-width: 800px;
+            flex-wrap: wrap;
+            margin-left: 380px;
+        }
+
+        .col-2{
+        flex-basis: 50% ;
+        }   
+
+        .col-2{
+            background: #fff;
+            padding: 40px 8%;
+            color: #333;
+            min-width: 250px;
+        }
+
+        .col-2 h2{
+            font-weight: 600;
+        }
+
+        .col-2 a{
+            width: 267px;
+        }
+
+
+        .col-2 span{
+            font-size: 12px;
+        }
+
+        .col-2 span a{
+            text-decoration: none;
+            color: #ef005d;
+            font-weight: 500;
+        }  
+
+        .google-link{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            margin: 20px 0;
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #ef005d;
+            text-decoration: none;
+            color: #555;
+        
+        }
+
+        .google-link img{
+            width: 20px;
+            margin-right: 10px;
+        }
+
+        .col-2 h4{
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 12px;
+        }
+
+        .input-field{
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #ef005d;
+            outline: none;
+            display: block;
+            width: 100%;
+            margin: 5px 0 10px;
+        }
+
+        form label{
+            font-weight: bold;
+            font-size: 12px;
+
+        }
+
+        
+
+        .col-2 form button{
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #ef005d;
+            outline: none;
+            display: block;
+            width: 275px;
+            margin: 18px 0 10px;
+            background: #ef005d;
+            cursor: pointer;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenu">
+        <div class="login-box">
+            <div class="col-1"></div>
+            <div class="col-2">
+                <h2>Let's Start Today</h2>
+                <span>Already have an account <a href="">Login</a></span>
+                <a href="" class="google-link">
+                    <img src="google.png" > Continue with Google 
+                </a>
+                <h4>Or</h4>
+
+                <form >
+
+                <label>Email Adress</label>
+                <input type="email" placeholder="Enter your email" class="input-field">
+
+                <label>Password</label>
+                <input type="password" placeholder="Enter your password" class="input-field">
+
+                
+                
+                <button type="submit"> Register Now</button>
+                </form>
+            </div>
+        </div>
+    </div> 
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing pages project</title>
+   <link rel="stylesheet" href="style.css">
+
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <nav class="navbar">
+            <h2 class="logo">Rudy<span>Consulting</span></h2>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li> 
+                <li><a href="#">Formations</a></li> 
+                
+               </ul>
+               <a href="#" class="register-btn">Souscrire</a>
+        </nav>
+        <div class="content ">
+            <h1>Rudy Consluting votre Solution</h1>
+            <p>Rudy Consulting pour vous servir . Nous proposons une game des services<br> afin de répondre à tous vos besoins.</p>
+            
+            <button type="button"> VOIR PLUS </button>
+            <button type="button">  S'ABONNER</button>
+        </div>
+    </div>
+
+    
+    <div w3-include-html="login/login.html"></div>
+    <div w3-include-html="services/service.html"></div>
+    <div w3-include-html="footer/footer.html"></div>
+
+    <script>
+        w3IncludeHTML();
+    </script>
+</body>
+</html>
